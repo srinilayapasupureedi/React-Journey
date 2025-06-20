@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "very excited to learn more stuff further..its just the begining",
   "scripts": {
+    "start": "parcel index.html",
+    "build":"parcel build index.html",
     "test": "jest"
   },
   "repository": {
