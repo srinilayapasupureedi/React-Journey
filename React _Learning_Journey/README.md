@@ -12,3 +12,40 @@
 ---
 **Reflection:**  
 Writing and rendering a "Hello World" in React gave me a foundation for building more complex UIs. 
+
+
+# Day-5: Learning Outcomes
+
+## 1. Rendering Components and Data Flow
+- Implemented `Header`, `Body`, and `RestroCard` components.
+- Used mock data (`mockData.js`) to render a list of restaurants dynamically.
+- Extracted and combined restaurant arrays from nested mock data structures.
+
+## 2. State Management and Filtering
+- Used the `useState` hook to manage the list of restaurants displayed.
+- Added a "Top rated Restaurants" button to filter restaurants with `avgRating >= 4.0`.
+- Understood the difference between rendering all restaurants by default and filtering on user action.
+
+## 3. Import and Export Types in React
+- Practiced both **named exports/imports** and **default exports/imports**:
+  - **Named export:**  
+    ```js
+    // Export
+    export const Header = () => { ... }
+    // Import
+    import { Header } from './components/Header';
+    ```
+  - **Default export:**  
+    ```js
+    // Export
+    export default Header;
+    // Import
+    import Header from './components/Header';
+    ```
+- Used named exports for all components and constants for better clarity and maintainability.
+
+---
+
+**Reflection:**  
+Today, I learned how to manage and display dynamic lists in React using state and props. I also practiced extracting deeply nested data and filtering it based on user interaction. Debugging import/export issues helped reinforce best practices for modular React code, and I now understand the difference between default and named exports in JavaScript modules.
+
